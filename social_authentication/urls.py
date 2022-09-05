@@ -20,6 +20,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('social/api/v1/', include('social.api.v1.urls')),
-    path('home/api/v1/', include('home.api.v1.urls')),
+    path('api/v1/social/', include('social.api.v1.urls')),
+    path('api/v1/', include('home.api.v1.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
