@@ -1,4 +1,4 @@
-# DRF_Social_Auth
+# DRF_Social_APIs
 Simple Module for Social Authentication in Django Rest Framework using dj-rest-auth Package.
 
 This includes simple Sigup and Login APIs and also the Social Signup with Facebook Google and Apple. Also I have added Social Connect functionality. Which might be helpful for you guys. If dont need it just comment or remove this method  https://github.com/ARehmanx/DRF_Social_Auth/blob/0be416526f7e9675ab3e6882e9d4e801abbc5fc4/social/adapters.py#L19
