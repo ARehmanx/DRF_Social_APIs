@@ -65,6 +65,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+MIDDLEWARE += ['whitenoise.middleware.WhiteNoiseMiddleware']
 
 ROOT_URLCONF = 'social_authentication.urls'
 
