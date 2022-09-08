@@ -1,1 +1,1 @@
-web: gunicorn DRF_Social_APIs --log-file -
+web: gunicorn DRF_Social_APIs.wsgi --log-file -
