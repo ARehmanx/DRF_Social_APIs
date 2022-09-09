@@ -1,1 +1,1 @@
-web: gunicorn DRF_Social_APIs.wsgi --log-file -
+web: gunicorn social_authentication.wsgi --log-file -
